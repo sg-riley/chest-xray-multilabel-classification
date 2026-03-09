@@ -1,0 +1,54 @@
+# ── Dataset & Model ─────────────
+*.png
+*.jpg
+*.jpeg
+*.dcm
+*.csv
+*.h5
+*.keras
+*.pt
+*.pth
+*.pkl
+*.npy
+*.npz
+
+# Excep for small file
+!requirements.txt
+!config/config.py
+!notebooks/*.ipynb
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Environment ───────────────────────────────────────────────
+.env
+.venv
+venv/
+env/
+ENV/
+
+# ── Output & Log ─────────────────────────────────────────────
+outputs/figures/
+outputs/logs/
+*.log
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
