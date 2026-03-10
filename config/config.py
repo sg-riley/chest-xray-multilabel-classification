@@ -1,7 +1,11 @@
 import os
 
-
 class Config:
+    # Repository
+    REPO_URL  = 'https://github.com/sg-riley/chest-xray-multilabel-classification.git'
+    REPO_NAME = 'chest-xray-multilabel-classification'
+    REPO_PATH = f'/content/{REPO_NAME}'
+
     # Google Drive Base Path
     BASE_DIR    = '/content/drive/MyDrive/[DEV]Chest_X_Ray_Model'
     DATASET_DIR = f'{BASE_DIR}/DATASET'
